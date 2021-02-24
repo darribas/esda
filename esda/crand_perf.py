@@ -3,7 +3,7 @@ Performance benchmarking for parallel crand
 
 ...
 
-python crand_perf.py BRANCH CORES PERMUTATIONS
+python crand_perf.py BRANCH DRAWS PERMUTATIONS CORES
 """
 
 import os, sys, time, datetime
