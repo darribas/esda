@@ -102,7 +102,7 @@ for i in range(DRAWS):
     t1 = time()
     t = t1 - t0
     ts.append(t)
-    print(f"\tRep {i+1}: {np.round(t, 4)} seconds")
+    #print(f"\tRep {i+1}: {np.round(t, 4)} seconds")
 ts = np.array(ts)
 print((
     f"\n{PERMUTATIONS} perms | {CORES} cores | "\
